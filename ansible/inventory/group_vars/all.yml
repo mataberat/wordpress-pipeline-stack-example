@@ -1,4 +1,4 @@
-server_default_applications:
+server_default_application_programs:
   - tar
   - python
   - python-pip
@@ -14,3 +14,5 @@ server_default_applications:
   - wget
   - iptables
   - openssh-server
+  - apt-transport-https
+  - gnupg
