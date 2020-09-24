@@ -9,10 +9,10 @@ Manage WordPress deployment on traditional Virtual Machine with an automation ma
 
 ## Servers Topology
 
-IP CIDR: 192.168.139.0/24
-WordPress Servers IP Range: [192.168.139.30 - 192.168.139.40]
-MySQL Database IP: 192.168.139.100
-Jenkins Server IP: 192.168.139.110
+- IP CIDR: 192.168.139.0/24
+  - WordPress Servers IP Range: [192.168.139.30 - 192.168.139.40]
+  - MySQL Database IP: 192.168.139.100
+  - Jenkins Server IP: 192.168.139.110
 
 ## Setting up the Python Virtual Environment
 This repository initiated using Python 3.8.5. It's very recommended to use the same Python version to minimize the unsupported Ansible and their kind of environment. I prefer to use [pyenv](https://github.com/pyenv/pyenv) and [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv) to easy switch your Python version.
